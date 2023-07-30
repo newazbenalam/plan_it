@@ -21,6 +21,13 @@ class SecondScreen extends StatelessWidget {
           return ItemCard(index: index);
         },
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(
+          Icons.add,
+          color: backGroundColor,
+        ),
+      ),
     );
   }
 }
